@@ -1,0 +1,16 @@
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image img {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.card-image:hover img {
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+.portfolio-caption-heading {
+  transition: color 0.5s ease;
+}
